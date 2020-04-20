@@ -7,7 +7,6 @@ const user = require('./controllers/usercontroller');
 const sequelize = require('./db');
 
 
-
 sequelize.sync();
 
 app.use(express.json());
